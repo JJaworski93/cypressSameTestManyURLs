@@ -1,0 +1,60 @@
+{
+    
+    "ignoreTestFiles": "*/examples/",
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "pageLoadTimeout": 20000,
+    "defaultCommandTimeout": 8000,
+    "retries": 3,
+    "env": {
+
+      "URL1.be": {
+         "url": "https://url1.be",
+         "username": "uname",
+         "password": "pword"
+      },
+
+      "URL1.ch": {
+         "url": "https://url1.ch",
+         "username": "uname",
+         "password": "pword"
+      },
+
+      "URL1.com": {
+         "url": "https://url1.com",
+         "username": "uname",
+         "password": "pword",
+         "requiresPaymentHistory": true
+      },
+
+      "URL1.de": {
+         "url": "https://url1.de",
+         "username": "uname",
+         "password": "pword"
+      },
+
+      "URL2.de": {
+         "url": "https://url2.de",
+         "username": "uname",
+         "password": "pword",
+         "requiresAccVerificationCH": true
+      },
+
+      "URL1.es": {
+         "url": "https://url1.es",
+         "username": "uname",
+         "password": "pword",
+         "requiresCryptoTabCheck": true
+      },
+
+
+      "URL1.pl": {
+         "url": "https://url1.pl",
+         "username": "uname",
+         "password": "pword",
+         "requiresFinancialProdCheck": true
+
+      }
+       
+   }
+ }
